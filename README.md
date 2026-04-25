@@ -28,11 +28,13 @@ A REST API built with FastAPI, PostgreSQL, and JWT authentication.
    pip install -r requirements.txt
 ```
 4. Create a `.env` file
-    Add the following ...
+Add the following ...
+```bash
     DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/taskmanager
     SECRET_KEY=yoursecretkey
     ALGORITHM=HS256
     ACCESS_TOKEN_EXPIRE_MINUTES=30
+```
 
 5. Run the server
 ```bash
